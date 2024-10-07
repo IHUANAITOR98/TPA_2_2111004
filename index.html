@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TP2_A_2111004</title>
+</head>
+<body>
+    <script type="text/javascript" async="" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+    <div id="Condiciones_del_mercado_text">
+        <label>Función de la demanda inversa</label>
+        <p><span class="math display">\[P(Q)= a -bQ\]</span></p>
+    </div>
+    <div id="Condiciones_del_mercado_text">
+        <label id="pendiente_label">a </label>
+        <input id="pendiente_input" type="number">
+        <label id="ponderacion_label">b </label>
+        <input id="ponderacion_input" type="number">
+    </div>
+    <br>
+    <div id="Condiciones_de_las_firmas_text">
+        <label id="Costo1_label">C1</label>
+        <input id="Costo1_input" type="number">
+        <label id="Costo2_label">C2</label>
+        <input id="Costo2_input" type="number">
+    </div>
+    <button onclick="Calcular_cantidades()">Calcular cantidades</button>
+    <br>
+    <div id="Beneficios">
+        Cantidad Firma 1: 
+        <label id="Cantidad_f1"></label>
+        <br>
+        Cantidad Firma 2: 
+        <label id="Cantidad_f2"></label>
+    </div><button onclick="Calcular_beneficios()">Calcular beneficios</button>
+    <br>
+    <div id="Beneficios">
+        Beneficios Firma 1: 
+        <label id="Beneficios_f1"></label>
+        <br>
+        Beneficios Firma 2: 
+        <label id="Beneficios_f2"></label>
+    </div>
+    
+
+    <script src="Logica.js"></script>
+</body>
+</html>
